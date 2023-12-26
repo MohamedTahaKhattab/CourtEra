@@ -1,0 +1,85 @@
+.sectionMargin {
+    margin-top: 70px;
+    margin-bottom: 225px;
+}
+
+.trick {
+    height: 92px;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+
+
+.imgContainer {
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.court1 {
+    height: 350px;
+    transition: all 1s ease-in-out;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.car:hover .court1 {
+    transform: scale(1.2);
+}
+
+.courtLayer {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    top: 0px;
+    bottom: 0px;
+    opacity: 0;
+    transition: all 1s;
+}
+
+.car:hover .courtLayer {
+    opacity: 1;
+}
+
+.car {
+    height: 350px;
+    box-shadow: var(--shadowL) !important;
+    border-radius: 5px;
+}
+
+.button {
+    transition: all 0.5s ease-in-out !important;
+}
+
+.button:hover {
+    background-color: rgb(122, 80, 0) !important;
+}
+
+
+.heading {
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 27px;
+    color: var(--secondary-colorL);
+}
+
+.headMargin {
+    margin-bottom: 50px !important;
+}
+
+.starColor {
+    color: var(--secondary-colorL);
+}
+
+.part {
+    width: 80px;
+    height: 4px;
+    background-color: var(--secondary-colorL);
+}
+
+.marginLeftRight {
+    margin-left: 16px;
+    margin-right: 16px;
+}

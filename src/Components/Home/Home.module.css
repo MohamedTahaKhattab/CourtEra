@@ -1,0 +1,135 @@
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../assets/imgs/The\ world\'s\ biggest\ drone\ photo\ and\ video\ sharing\ platform.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Layer{
+    position: absolute;
+    width: 100%;
+    top: 0rem;
+    bottom: 0rem;
+    background-color: rgba(0, 0, 0,0.82);
+}
+
+.contentHead{
+    font-size: 4.375rem;
+    font-weight: 600;
+}
+
+.contentP{
+    font-size: 1.875rem;
+    font-weight: 400;
+}
+
+.contentP::after{
+    content: '|';
+    font-size: 1.875rem;
+    font-weight: 400;
+    animation: typing 5s infinite ease-in-out; 
+    animation-delay: 1s; 
+}
+
+
+
+@keyframes typing {
+    0%{content: '|';}
+    1.8%{content: ' F|';}
+    3.6%{content: ' Fo|';}
+    5.4%{content: ' Foo|';}
+    7.2%{content: ' Foot|';}
+    9%{content: ' Footb|';}
+    10.8%{content: ' Footba|';}
+    12.6%{content: ' Footbal|';}
+    14.4%{content: ' Football|';}
+    16.2%{content: ' Football |';}
+    18%{content: ' Football C|';}
+    19.8%{content: ' Football Co|';}
+    21.6%{content: ' Football Cou|';}
+    23.4%{content: ' Football Cour|';}
+    25.2%{content: ' Football Court|';}
+    27%{content: ' Football Court  |';}
+    28.8%{content: ' Football Court|';}
+    30.6%{content:' Football Cour|';}
+    32.4%{content: ' Football Cou|';}
+    34.2%{content: ' Football Co|';}
+    36%{content: ' Football C|';}
+    37.8%{content: ' Football |';}
+    39.6%{content: ' Football|';}
+    41.4%{content: ' Footbal|';}
+    43.2%{content: ' Footba|';}
+    45%{content: ' Footb|';}
+    46.8%{content: ' Foot|';}
+    48.6%{content: ' Foo|';}
+    50.4%{content: ' Fo|';}
+    52.2%{content: ' F|';}
+    54%{content: ' |';}
+    55.8%{content: ' P|';}
+    57.6%{content: ' Pa|';}
+    59.4%{content: ' Pad|';}
+    61.2%{content: ' Pade|';}
+    63%{content: ' Padel|';}
+    64.8%{content: ' Padel |';}
+    66.6%{content: ' Padel C|';}
+    68.4%{content: ' Padel Co|';}
+    70.2%{content: ' Padel Cou|';}
+    72%{content: ' Padel Cour|';}
+    73.8%{content: ' Padel Court|';}
+    75.6%{content: ' Padel Court  |';}
+    77.4%{content: ' Padel Court|';}
+    79.2%{content: ' Padel Cour|';}
+    81%{content: ' Padel Cou|';}
+    82.2%{content: ' Padel Co|';}
+    84%{content: ' Padel C|';}
+    85.8%{content: ' Padel |';}
+    87.6%{content: ' Padel|';}
+    89.4%{content: ' Pade|';}
+    91.2%{content: ' Pad|';}
+    93%{content: ' Pa|';}
+    96%{content: ' P|';}
+    100%{content: ' |';}
+} 
+
+
+.padelSection{
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+.footballSection{
+    margin-top: 100px;
+}
+
+.CourteraHeading{
+    margin-top: 150px;
+    font-size: 40px;
+    font-weight: 800
+}
+
+.greenLine{
+    background-color: var(--secondary-colorL);
+    width: 80px;
+    height: 5px;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+.CourtParagraph{
+    font-size: 18px;
+    font-weight:400 ;
+}
+
+.ProColor{
+    color: var(--secondary-colorL);
+}
+
+/* counter */
+
+
+.counterMargin{
+    margin-top: 200px;
+    margin-bottom: 150px;
+}

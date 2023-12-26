@@ -1,0 +1,111 @@
+
+
+.logoContainer{
+    width: 200px;
+}
+
+.logo{
+    font-size: 2.1875rem;
+    font-weight: 700;
+}
+.fLayer{
+    padding-left: .625rem;
+}
+
+
+
+
+
+.footballIcon{
+    font-size: 1.75rem!important;
+    margin-left: 4px;
+}
+
+
+
+
+/* .navbarheight{
+    height: 100px;
+} */
+
+
+.NavBarLiL{
+    font-size: 1.1875rem !important;
+    font-weight: 400 !important;
+    transition: all 0.6s ease-in-out;
+    margin-right: 10px;
+    color: white !important;
+}
+
+.liFontWhight{
+    font-weight: 400 !important;
+}
+
+.modesIconL{
+    font-size: 1.375rem;
+}
+.modesIconD{
+    font-size: 1.375rem;
+}
+
+.NavBarLiL:hover{
+    color: var(--secondary-colorL) !important;
+}
+
+.NavBarLiD:hover{
+    color: var(--secondary-colorD) !important;
+}
+
+.firstGroundLine{
+    width: 2.1875rem;
+    height: 0.125rem;
+    background-color: rgba(128, 128, 128,0.6);
+    top: 43px;
+    left: 0px;
+}
+
+.secondGroundLine{
+    width: 1.5625rem;
+    height: 0.125rem;
+    background-color: rgba(128, 128, 128,0.6);
+    top: 46px;
+    left: 5px;
+}
+
+.thirdGroundLine{
+    width: .9375rem;
+    height: 0.125rem;
+    background-color: rgba(128, 128, 128,0.6);
+    top: 49px;
+    left: 10px;
+}
+
+
+.dropdownBtn{
+    border: none;
+    background-color: transparent !important;
+    font-size: 1.1875rem !important;
+    font-weight: 400 !important;
+    transition: all 0.2s ease-in-out;
+}
+.dropdownBtn:hover{
+    color: var(--secondary-colorL) !important;
+}
+
+
+.dropdown{
+    border: none;
+    background-color: none;
+}
+
+.NavbarP{
+    padding:24px 0px !important;
+    background-color: transparent;
+    transition: all 0.35s ease-in-out;
+}
+
+.Active{
+    padding: 17px !important;
+    background-color: rgba(0, 0, 0,0.85);
+    transition: all 0.35s ease-in-out;
+}

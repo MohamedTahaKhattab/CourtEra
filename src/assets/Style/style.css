@@ -1,0 +1,323 @@
+:root{
+    --navBar-colorL:rgb(0, 0, 0);
+    --secondary-colorL: #4F6F52;
+    --light-colorL:crimson;
+    --shadowL:rgba(128, 128, 128,.4)  0px 2px 4px -1px ,rgba(128, 128, 128,.14) 0px 4px 5px 0px ,rgba(128, 128, 128,.4) 0px 2px 4px -1px;
+    --font-family:'Encode Sans', sans-serif;
+    --rating-color:#ffc908;
+/* 
+    Dark mode
+    --Navbar-colorD:rgba(26, 26, 26);
+    --primary-colorD:rgba(26, 26, 26,.4);
+    --secondary-colorD:#0E2954;
+    --shadowD:rgba(13, 40, 84,.4)  0px 2px 4px -1px ,rgba(13, 40, 84,.14) 0px 4px 5px 0px ,rgba(13, 40, 84,.4) 0px 2px 4px -1px;
+    --font-family:'Encode Sans', sans-serif; */
+}
+
+
+
+.bg_main{
+    background-color: var(--navBar-colorL) !important;
+}
+
+
+.dropdown{
+    background-color: transparent !important;
+}
+
+
+.Navbar_dropdownBtn__2-AtF{
+    font-weight: 400 !important;
+}
+
+.rating-color{
+    color: var(--rating-color);
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+
+
+a{
+    color: black !important;
+    text-decoration: none !important;
+}
+
+
+.reservationBtnL{
+    background-color: var(--secondary-colorL) !important;
+}
+
+.ColorL{
+    color: var(--secondary-colorL) !important;
+}
+
+
+/* Dark mode */
+
+.reservationBtnD{
+    background-color: var(--secondary-colorD);
+    color: white;
+}
+
+.ColorD{
+    color: var(--secondary-colorD) !important;
+}
+
+
+/* counter */
+
+.counter {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.overlay-circle{
+    margin-left: 12px;
+}
+
+
+.p1 {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #ffff;
+}
+
+.p2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #212529;
+}
+
+.layer2 {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+    background-color: rgba(128, 128, 128,0.7);
+}
+
+/* contact */
+
+.contactH3{
+    font-size:2.5rem;
+    font-weight: 900;
+    /* font-family: var(--headings-font); */
+    color: #212529;
+    /* margin-top: 5.625rem; */
+} 
+
+
+
+
+.contact-items h6{
+    font-size: 1rem;
+    font-weight: var(--font-wheight-700);
+    font-family: var(--headings-font);
+    color: var(--primary-color);
+}
+
+.contact-items p{
+    font-size: .9375rem;
+    font-weight:var(--font-wheight-400);
+    font-family: var(--paragraph-font);
+    color: #748182;
+}
+
+.fa-location-arrow ,.fa-envelope ,.fa-phone{
+    font-size: 1.5625rem;
+}
+.contact-icons{
+    width: 3.4375rem;
+    height: 3.4375rem;
+    background-color: var(--secondary-color);
+    border-radius: 50%;
+    transition: 0.2s ease-in-out;
+}
+
+
+
+.contact-items:hover .contact-icons{
+    background-color: black;
+}
+
+.contact-items:hover .fa-location-arrow{
+    color: white;
+}
+
+.contact-items:hover .fa-envelope {
+    color: white;
+}
+.contact-items:hover .fa-phone{
+    color: white;
+}
+
+.left{
+    width: 48.5%;
+    padding: .5rem 0rem .5rem .3125rem;
+}
+
+.right{
+    width: 48.5%;
+    padding: .5rem 0rem .5rem .3125rem;
+}
+
+.left,.right,textarea{
+    border-radius: .3125rem;
+    background-color: #f7f7f7;
+    border: .0625rem solid #f7f7f7;
+}
+
+form{
+    margin-top: 3.75rem;
+}
+
+textarea{
+    margin-top: .9375rem !important;
+    padding: .3125rem;
+}
+
+.sub-btn{
+    border: .0625rem solid var(--primary-color);
+    padding: .625rem .3125rem .625rem .3125rem;
+    width: 7.5rem;
+    font-size: .8125rem !important;
+    font-weight: var(--font-wheight-400);
+    font-family: var(--paragraph-font);
+    color: white;
+    background-color:#1c1c1c;
+    border-radius: .3125rem;
+    transition: all 0.3s ease-in;
+}
+
+.sub-btn:hover{
+    background-color: white;
+    border: .0625rem solid black;
+    color: black;
+    /* padding: .625rem .3125rem .625rem .3125rem; */
+    /* width: 7.5rem; */
+    font-size: .8125rem !important;
+    font-weight: var(--font-wheight-400);
+    font-family: var(--paragraph-font);
+    border-radius: .3125rem;
+}
+
+.f-div{
+    padding-bottom: 4.375rem;
+} 
+
+
+/* football cards  */
+
+.marg-right{
+    margin-right: 130px;
+}
+
+/* navbar toggele btn */
+.navbar-toggler{
+    background-color: white !important;
+}
+
+/* rivales */
+
+.accordion {
+width: 100%;
+display: flex;
+justify-content: center;
+height: 400px;
+gap: 16px;
+transition: 0.3s;
+}
+
+.accordion:hover {
+gap: 0;
+}
+.accordion h2 {
+font-weight: 400;
+font-size: 24px;
+line-height: 45px;
+border-bottom:
+2px solid #fff;
+white-space: nowrap;
+}
+.accordion li {
+position: relative;
+overflow: hidden;
+flex: 0 0 80px;
+border-radius: 50px;
+opacity: 0.75;
+cursor: pointer;
+}
+.accordion li img {
+position: absolute;
+top: 50%;
+left: 50%;
+translate: -50% -50%;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.accordion li,
+.accordion li img,
+.accordion li .content
+.accordion li .content span {
+transition: 0.3s;
+}
+
+.accordion li .content {
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+z-index: 1;
+color: #fff;
+padding: 15px;
+background: #02022e;
+background:
+linear-gradient(
+0deg
+rgb(
+000/70%
+)10%,
+rgb(
+255 255 255 / 0%
+)
+100%
+);
+opacity: 0;
+visibility:hidden;
+}
+
+.accordion li
+.content span {
+position: absolute;
+z-index: 3;
+left: 50%;
+bottom: 50px;
+translate: -300px 0;
+visibility: hidden;
+opacity: 0;
+}
+.accordion li:hover {
+flex: 0 1 260px;
+scale: 1.1;
+z-index: 10;
+opacity: 1;
+}
+.accordion li:hover
+.content {
+opacity: 1;
+visibility: visible;
+}
+.accordion li:hover span {
+translate: -50% 0;
+opacity: 1;
+visibility:visible;
+}

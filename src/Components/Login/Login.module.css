@@ -1,0 +1,103 @@
+.marginLeftRight{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.height{
+    height: 73.5vh;
+
+}
+
+.heading{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 50px;
+    color:var(--secondary-colorL);
+}
+
+.starColor{
+    color:var(--secondary-colorL);
+}
+.part{
+    width: 80px;
+    height: 4px;
+    background-color: var(--secondary-colorL);
+}
+
+.marginRight{
+    margin-right: 5px;
+}
+
+.containe{
+    width: 48%;
+    margin-top: 45px;
+}
+
+.inputBorRadius{
+    border-radius: 7px;
+    padding: 16px 10px;
+    border: 0;
+    border-bottom: 1px solid rgba(128, 128, 128,0.2);
+    margin-top: 27px;
+}
+
+.inputMargin{
+    margin-bottom: 30px;
+}
+
+.btnLayout{
+    width: 126px;
+    height: 40px;
+    background-color: var(--secondary-colorL);
+    border: 0;
+    border-radius: 5px;
+}
+
+.btnLayout:hover{
+    width: 126px;
+    height: 40px;
+    background-color: var(--secondary-colorL);
+}
+
+.dHeight{
+    height: 85px;
+}
+
+.label{
+    color: var(--secondary-colorL);
+    z-index: -1;
+    left: 0px;
+    top: 0px;
+    transition:all 0.3s ease-in-out;
+}
+
+.Active{
+    color: var(--secondary-colorL);
+    z-index: -1;
+    left: 0px;
+    top: 21px;
+    transition:all 0.3s ease-in-out;
+}
+
+
+:focus-visible {
+    outline: none;
+}
+
+.fontBold{
+    font-weight: 500;
+}
+
+.regStyle{
+    font-weight: 400 !important;
+    transition: all 0.5 ease;
+}
+
+.regStyle:hover{
+    color: #4F6F52 !important;
+}
+
+.trick{
+    height: 92px;
+    background-color: rgba(0, 0, 0,0.85);
+}
