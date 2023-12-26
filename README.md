@@ -1,2 +1,0 @@
-# CourtEra
-Agile Project
